@@ -33,7 +33,7 @@ the site depends on this repo — an empty list renders the site exactly as it i
 | `kind` | `research` \| `artifact` \| `writing` — mirrors the protocol's `kind` |
 | `title` | as it should appear on the site (usually the protocol's `title`) |
 | `summary` | human-written; the lab does not author this |
-| `mark` | name of a mark committed to nullsilver.com (`src/lib/marks/`); the site falls back to `plate` until the real one is generated |
+| `mark` | name of the project's mark; the site uses its committed copy (`src/lib/marks/`) if it has one, else `marks/<mark>.svg` from this repo, else the shared `plate` mark |
 | `added` | ISO date the project entered the index |
 
 The project's live facts — status, phase, run, revision, timeline — are **not**
