@@ -1,4 +1,15 @@
 {
 	"format": "1.0",
-	"projects": []
+	"projects": [
+		{
+			"slug": "flint",
+			"repo": "nullsilver-labs/flint",
+			"branch": "main",
+			"kind": "research",
+			"title": "Flint: compressing reasoning without breaking it",
+			"summary": "Small reasoning models spend most of their thinking tokens narrating, not computing. Flint fine-tunes a model on its own section-aware-compressed traces and gets better accuracy at 2-3x fewer tokens — this pre-registered study tests whether the recipe transfers to a new model family, scales with data, and can shed its behavioral costs.",
+			"mark": "flint",
+			"added": "2026-08-12"
+		}
+	]
 }
